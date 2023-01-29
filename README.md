@@ -55,12 +55,14 @@ fetchオプションの"{ next: { revalidate: 10 } }"は指定した秒数毎に
 
 新しいリポジトリを作成  
 
-リモートブランチを変更  
+プロジェクトに移動して、gitの履歴を初期化  
 ```bush
-git remote set-url origin {new url}
+rm -rf .git
 ```
 
 リモートブランチの確認  
 ```bush
 git remote -v
 ```
+
+指定したリポジトリにpush
