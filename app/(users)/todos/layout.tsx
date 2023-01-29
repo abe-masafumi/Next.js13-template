@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import TodoList from "./TodoList";
+import TodoList from "./TodosList";
 
 export default function RootLayout({
   children,

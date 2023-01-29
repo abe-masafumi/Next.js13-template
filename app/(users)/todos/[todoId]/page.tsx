@@ -1,5 +1,5 @@
 import { NOTFOUND } from "dns";
-import { Todo } from "../../../typings";
+import { Todo } from "../../../../typings";
 import { notFound } from 'next/navigation';
 
 type PageProps = {
