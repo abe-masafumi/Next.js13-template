@@ -50,3 +50,17 @@ fetchオプションの"{ next: { revalidate: 10 } }"は指定した秒数毎に
 [youtube2](https://www.youtube.com/watch?v=dvRLrsPGqto&t=1475s)  
 [Google Search API](https://serpapi.com/)  
 [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
+## clone後の操作
+
+新しいリポジトリを作成  
+
+リモートブランチを変更  
+```bush
+git remote set-url origin {new url}
+```
+
+リモートブランチの確認  
+```bush
+git remote -v
+```
